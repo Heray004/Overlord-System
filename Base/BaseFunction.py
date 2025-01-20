@@ -8,14 +8,6 @@ class BaseFunction():
     def __init__(self):
         pass
 
-    def restart_PC(self):
-        system('shutdown /r /t 0')
-        EXIT(7)
-
-    def off_PC(self):
-        system('shutdown /s /t 0')
-        EXIT(7)
-
     def music(self):
         pyautogui.press('playpause')
 
@@ -24,6 +16,9 @@ class BaseFunction():
 
     def next_music(self):
         pyautogui.press('nexttrack')
+
+    def param_vol(self):
+        system('C:\Windows\explorer.exe ms-settings:apps-volume')
 
     # def vol_down(self):
     #     pyautogui.press('volumedown')
@@ -39,4 +34,15 @@ class BaseFunction():
 
     def reload(self):
         raise OSError
+
+    def restart_PC(self):
+        system('shutdown /r /t 0')
+        EXIT(7)
+
+    def off_PC(self):
+        system('shutdown /s /t 0')
+        EXIT(7)
+
+    def another(self):
+        pass
 

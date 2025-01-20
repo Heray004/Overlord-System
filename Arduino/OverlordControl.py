@@ -1,17 +1,18 @@
 import serial
 class OverlordControl():
     def __init__(self):
-        try:
-            self.ser = serial.Serial('COM4', 9600, dsrdtr=0)
-            print("Overlord Control готов к работе (__init__)")
-        except:
-            print("Ардуино модуль не найден (__init__)")
+        pass
+        # try:
+        #     self.ser = serial.Serial('COM4', 9600, dsrdtr=0)
+        #     print("Overlord Control готов к работе (__init__)")
+        # except:
+        #     print("Ардуино модуль не найден (__init__)")
 
     def search_com(self):
         try:
-            ser = serial.Serial('COM4', 9600, dsrdtr=0)
+            self.ser = serial.Serial('COM4', 9600, dsrdtr=0)
             print("Overlord Control готов к работе (search_com)")
-            return ser
+            return self.ser
         except:
             print("Ардуино модуль не найден (search_com)")
 

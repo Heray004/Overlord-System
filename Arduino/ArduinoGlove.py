@@ -1,7 +1,6 @@
 import serial
 from threading import Thread
-from time import sleep
-from BaseFunction import *
+
 
 def listen_port():
     try:

@@ -1,0 +1,47 @@
+text,intent
+включи музыку,BaseFunction.music
+запусти музыку,BaseFunction.music
+выключи музыку,BaseFunction.music
+музыка,BaseFunction.music
+дальше,BaseFunction.next_music
+назад,BaseFunction.prev_music
+параметры звука,BaseFunction.param_vol
+громче,OverlordControl.vol_up
+увеличь громкость,OverlordControl.vol_up
+тише,OverlordControl.vol_down
+уменьши громкость,OverlordControl.vol_down
+выключи компьютер,BaseFunction.off_PC
+отключи компьютер,BaseFunction.off_PC
+выключить компьютер,BaseFunction.off_PC
+перезагрузить компьютер,BaseFunction.restart_PC
+перезагрузи компьютер,BaseFunction.restart_PC
+привет,BaseFunction.hello
+пока,BaseFunction.eexit
+открой доту,BaseFunction.open_dota
+запусти доту,BaseFunction.open_dota
+включи помойку,BaseFunction.open_dota
+холодно,OverlordControl.off_conditioner
+мне холодно,OverlordControl.off_conditioner
+жарко,OverlordControl.set17
+мне жарко,OverlordControl.set17
+инициализация,BaseFunction.reload
+проверь микрофоны,BaseFunction.reload
+найди микрофоны,BaseFunction.reload
+я люблю музыку,BaseFunction.another
+дальше лучше,BaseFunction.another
+назад дороги нет,BaseFunction.another
+громче некуда,BaseFunction.another
+тише некуда,BaseFunction.another
+бывает жарко,BaseFunction.another
+бывает холодно,BaseFunction.another
+включи мозг,BaseFunction.another
+выключи газ,BaseFunction.another
+выключи свет,BaseFunction.another
+перезагрузи программу,BaseFunction.another
+перезагрузить программу,BaseFunction.another
+проверь холодильник,BaseFunction.another
+уменьши дальность,BaseFunction.another
+увеличь дальность,BaseFunction.another
+не,BaseFunction.another
+купил компьютер,BaseFunction.another
+закинул в компьютер,BaseFunction.another
