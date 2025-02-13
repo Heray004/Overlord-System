@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OverlordControl/Zigbee/zigbee2mqtt" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/Zigbee/zigbee2mqtt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -282,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739480848491</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Overlord System v1.6">
+      <created>1739481276508</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739481276508</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Overlord System v1.6">
+      <created>1739481341163</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739481341163</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
