@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.5">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arduino/ArduinoGlove.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/Arduino/ArduinoGlove.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arduino/OverlordControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/Arduino/OverlordControlIR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/Recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/Record.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/WordBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/WordBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecisionModel/Overlord_model_v0.1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionModel/Overlord_model_v0.1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecisionModel/commands_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionModel/commands_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overlord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Overlord.py" afterDir="false" />
+    <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.6">
+      <change beforePath="$PROJECT_DIR$/OverlordControl/Zigbee/zigbee2mqtt" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/Zigbee/zigbee2mqtt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -277,12 +268,38 @@
       <option name="project" value="LOCAL" />
       <updated>1738145343109</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Overlord System v1.6">
+      <created>1739480830733</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739480830733</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Overlord System v1.6">
+      <created>1739480848491</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739480848491</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Overlord System v1.3" />
     <MESSAGE value="Overlord System v1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overlord System v1.5" />
+    <MESSAGE value="Overlord System v1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overlord System v1.6" />
   </component>
 </project>
