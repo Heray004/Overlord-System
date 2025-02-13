@@ -1,20 +1,23 @@
 if __name__ == "__main__":
     # -------------------------------------------
-    # -------------------------------------------
     from Base.Record import *
     from Base.Recognition import *
     # -------------------------------------------
-    Record = Record()
+    model_flag = None
+    devices = {}
+    devices_name = ["fifine", "Petlya", "Webcam"]
+    for i in devices_name:
+        devices[i] = [None, None, None]
+    # -------------------------------------------
+    Record = Record(devices=devices)
     Recognition = Recognition()
     # -------------------------------------------
-    model_flag = None
-    devices = Record.microphone_search()
 
     while True:
         print('Использовать модель?')
         while True:
             # text = str(input(">>> "))
-            text = Record.listen_one_msg(devices=devices)
+            text = Record.listen_one_msg()
             print(f'>>> {text}')
             if 'да' in text:
                 model_flag = 1
@@ -25,9 +28,9 @@ if __name__ == "__main__":
 
         print('Система для распознавания команд установлена')
         try:
-            OverlordControl.search_com()
+            OverlordControlIR.search_com()
             print('Система "Overlord" готова к работе')
-            for text in Record.listen(devices=devices):
+            for text in Record.listen():
                 print(f'>>> {text}')
                 text = Recognition.merge_text(text)
                 print(f'>>> {text}')

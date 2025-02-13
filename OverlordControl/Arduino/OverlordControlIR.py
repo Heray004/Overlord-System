@@ -1,5 +1,7 @@
 import serial
-class OverlordControl():
+
+
+class OverlordControlIR:
     def __init__(self):
         pass
         # try:

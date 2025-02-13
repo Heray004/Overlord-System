@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.5">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduino/ArduinoGlove.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/Arduino/ArduinoGlove.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduino/OverlordControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/Arduino/OverlordControlIR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/Recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/Record.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/WordBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/WordBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecisionModel/Overlord_model_v0.1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionModel/Overlord_model_v0.1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecisionModel/commands_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DecisionModel/commands_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overlord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Overlord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +51,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\Zigbee\test" />
+      <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\tests" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\Base" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\GPT" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Overlord">
+  <component name="RunManager" selected="Python.create_model">
     <configuration name="Overlord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Recognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OverlordConrolZigbee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OverlordControl/Zigbee" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\Base\Recognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OverlordControl/Zigbee/OverlordConrolZigbee.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Record" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="create_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionModel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\Base\Record.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionModel/create_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chernovik" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OverlordControl/Zigbee/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\GPT\chernovik.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OverlordControl/Zigbee/test/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testDevices (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GPT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OverlordControl/Zigbee" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\tests\test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OverlordControl/Zigbee/testDevices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_model" />
+        <item itemvalue="Python.test2 (1)" />
+        <item itemvalue="Python.testDevices (1)" />
         <item itemvalue="Python.Overlord" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.Recognition" />
-        <item itemvalue="Python.Record" />
-        <item itemvalue="Python.chernovik" />
+        <item itemvalue="Python.OverlordConrolZigbee" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738145010230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Overlord System v1.5">
+      <created>1738145343109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738145343109</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

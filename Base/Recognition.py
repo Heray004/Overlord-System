@@ -3,13 +3,14 @@ import pickle
 import numpy as np
 from collections import Counter
 # -------------------------------------------
-from Arduino.OverlordControl import *
+from OverlordControl.Arduino.OverlordControlIR import *
+from OverlordControl.Zigbee.OverlordConrolZigbee import *
 from Base.BaseFunction import *
 # -------------------------------------------
-OverlordControl = OverlordControl()
+OverlordControlIR = OverlordControlIR()
 BaseFunction = BaseFunction()
+OverlordControlZigbee = OverlordControlZigbee()
 # -------------------------------------------
-
 
 class Recognition(WordBase):
     def __init__(self):
@@ -57,7 +58,6 @@ class Recognition(WordBase):
             self.name_flag = False
 
         # --------------------------------------------------------------------------------------------------------------
-
     def model_recognition(self, text):
         words = text.split()
         if len(words) > 3:
@@ -70,10 +70,11 @@ class Recognition(WordBase):
                 intent = "BaseFunction.another"
         intent = intent.split('.')
         print(intent, "\n\n")
-        try:
-            getattr(eval(intent[0]), intent[1])()
-        except AttributeError:
-            print("комманда распознанна, но не имеет функции")
+        if intent[1] != "another":
+            try:
+                getattr(eval(intent[0]), intent[1])()
+            except AttributeError:
+                print("комманда распознанна, но не имеет функции")
 
     def merge_text(self, text):
         text = list(filter(None.__ne__, text))

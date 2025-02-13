@@ -6,27 +6,42 @@ text,intent
 дальше,BaseFunction.next_music
 назад,BaseFunction.prev_music
 параметры звука,BaseFunction.param_vol
-громче,OverlordControl.vol_up
-увеличь громкость,OverlordControl.vol_up
-тише,OverlordControl.vol_down
-уменьши громкость,OverlordControl.vol_down
 выключи компьютер,BaseFunction.off_PC
 отключи компьютер,BaseFunction.off_PC
 выключить компьютер,BaseFunction.off_PC
 перезагрузить компьютер,BaseFunction.restart_PC
 перезагрузи компьютер,BaseFunction.restart_PC
 привет,BaseFunction.hello
-пока,BaseFunction.eexit
+уивер пока,BaseFunction.eexit
+обер пока,BaseFunction.eexit
+овер пока,BaseFunction.eexit
+лорд пока,BaseFunction.eexit
+оверлорд пока,BaseFunction.eexit
 открой доту,BaseFunction.open_dota
 запусти доту,BaseFunction.open_dota
 включи помойку,BaseFunction.open_dota
-холодно,OverlordControl.off_conditioner
-мне холодно,OverlordControl.off_conditioner
-жарко,OverlordControl.set17
-мне жарко,OverlordControl.set17
 инициализация,BaseFunction.reload
 проверь микрофоны,BaseFunction.reload
 найди микрофоны,BaseFunction.reload
+
+громче,OverlordControlIR.vol_up
+увеличь громкость,OverlordControlIR.vol_up
+тише,OverlordControlIR.vol_down
+уменьши громкость,OverlordControlIR.vol_down
+холодно,OverlordControlIR.off_conditioner
+мне холодно,OverlordControlIR.off_conditioner
+жарко,OverlordControlIR.set17
+мне жарко,OverlordControlIR.set17
+
+включить свет,OverlordControlZigbee.light_on
+включи свет,OverlordControlZigbee.light_on
+выключить свет,OverlordControlZigbee.light_off
+выключи свет,OverlordControlZigbee.light_off
+включить розетка,OverlordControlZigbee.charger_on
+включи розетку,OverlordControlZigbee.charger_on
+выключить розетка,OverlordControlZigbee.charger_off
+выключи розетку,OverlordControlZigbee.charger_off
+
 я люблю музыку,BaseFunction.another
 дальше лучше,BaseFunction.another
 назад дороги нет,BaseFunction.another
@@ -36,7 +51,7 @@ text,intent
 бывает холодно,BaseFunction.another
 включи мозг,BaseFunction.another
 выключи газ,BaseFunction.another
-выключи свет,BaseFunction.another
+выключи приз,BaseFunction.another
 перезагрузи программу,BaseFunction.another
 перезагрузить программу,BaseFunction.another
 проверь холодильник,BaseFunction.another
@@ -45,3 +60,6 @@ text,intent
 не,BaseFunction.another
 купил компьютер,BaseFunction.another
 закинул в компьютер,BaseFunction.another
+пока,BaseFunction.another
+пока пока,BaseFunction.another
+давай пока,BaseFunction.another

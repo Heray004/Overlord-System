@@ -16,11 +16,17 @@ class WordBase:
                 ('BaseFunction', 'next_music'): ["дальше"],
                 ('BaseFunction', 'prev_music'): ["назад"],
                 ('BaseFunction', 'param_vol'): ["параметры звука"],
-                ('OverlordControl', 'vol_down'): ["тише"],
-                ('OverlordControl', 'vol_up'): ["громче"],
+                ('OverlordControlIR', 'vol_down'): ["тише"],
+                ('OverlordControlIR', 'vol_up'): ["громче"],
                 # 'conditioner'
-                ('OverlordControl', 'off_conditioner'): ["холодно"],
-                ('OverlordControl', 'set17'): ["жарко"],
-                ('OverlordControl', 'set18'): ["..."],
+                ('OverlordControlIR', 'off_conditioner'): ["холодно"],
+                ('OverlordControlIR', 'set17'): ["жарко"],
+                ('OverlordControlIR', 'set18'): ["..."],
+                ('OverlordControlZigbee', 'light_on'): ["включить свет", "включи свет"],
+                ('OverlordControlZigbee', 'light_off'): ["выключить свет", "выключи свет"],
+                #('OverlordControlZigbee', 'light'): ["свет"],
+                ('OverlordControlZigbee', 'charger_on'): ["включить розетка", "включи розетку"],
+                ('OverlordControlZigbee', 'charger_off'): ["выключить розетка", "выключи розетку"],
+                #('OverlordControlZigbee', 'charger'): ["розетка"],
             }
         }
