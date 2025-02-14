@@ -37,9 +37,9 @@ text,intent
 включи свет,OverlordControlZigbee.light_on
 выключить свет,OverlordControlZigbee.light_off
 выключи свет,OverlordControlZigbee.light_off
-включить розетка,OverlordControlZigbee.charger_on
+включить розетку,OverlordControlZigbee.charger_on
 включи розетку,OverlordControlZigbee.charger_on
-выключить розетка,OverlordControlZigbee.charger_off
+выключить розетку,OverlordControlZigbee.charger_off
 выключи розетку,OverlordControlZigbee.charger_off
 
 я люблю музыку,BaseFunction.another
@@ -51,7 +51,6 @@ text,intent
 бывает холодно,BaseFunction.another
 включи мозг,BaseFunction.another
 выключи газ,BaseFunction.another
-выключи приз,BaseFunction.another
 перезагрузи программу,BaseFunction.another
 перезагрузить программу,BaseFunction.another
 проверь холодильник,BaseFunction.another
