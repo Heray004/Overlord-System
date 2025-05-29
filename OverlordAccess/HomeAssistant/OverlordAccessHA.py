@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import json
 
 
-class OverlordAccess_HA:
+class OverlordAccessHA:
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.broker_ha2pc = "192.168.0.11"

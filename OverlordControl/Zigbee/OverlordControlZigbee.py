@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import json
 
 
-class OverlordControl_Zigbee:
+class OverlordControlZigbee:
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.broker_z2m = "192.168.0.11"

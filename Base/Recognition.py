@@ -6,13 +6,13 @@ from time import sleep
 # -------------------------------------------
 from Base.WordBase import WordBase
 from Base.BaseFunction import BaseFunction
-from OverlordControl.Arduino.OverlordControl_IR import OverlordControl_IR
-from OverlordControl.Zigbee.OverlordControl_Zigbee import OverlordControl_Zigbee
-from OverlordAccess.HomeAssistant.OverlordAccess_HA import OverlordAccess_HA
+from OverlordControl.Arduino.OverlordControlIR import OverlordControlIR
+from OverlordControl.Zigbee.OverlordControlZigbee import OverlordControlZigbee
+from OverlordAccess.HomeAssistant.OverlordAccessHA import OverlordAccessHA
 # -------------------------------------------
 
 
-class Recognition(WordBase, BaseFunction, OverlordControl_IR, OverlordControl_Zigbee, OverlordAccess_HA):
+class Recognition(WordBase, BaseFunction, OverlordControlIR, OverlordControlZigbee, OverlordAccessHA):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         with open(r"DecisionModel/Overlord_model_v0.1.pkl", "rb") as model_file:

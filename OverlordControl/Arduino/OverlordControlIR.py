@@ -1,7 +1,7 @@
 import serial
 
 
-class OverlordControl_IR:
+class OverlordControlIR:
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
