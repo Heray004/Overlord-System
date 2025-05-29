@@ -33,14 +33,14 @@ text,intent
 жарко,OverlordControlIR.set17
 мне жарко,OverlordControlIR.set17
 
-включить свет,OverlordControlZigbee.light_on
-включи свет,OverlordControlZigbee.light_on
-выключить свет,OverlordControlZigbee.light_off
-выключи свет,OverlordControlZigbee.light_off
-включить розетку,OverlordControlZigbee.charger_on
-включи розетку,OverlordControlZigbee.charger_on
-выключить розетку,OverlordControlZigbee.charger_off
-выключи розетку,OverlordControlZigbee.charger_off
+включить свет,OverlordControl_Zigbee.light_on
+включи свет,OverlordControl_Zigbee.light_on
+выключить свет,OverlordControl_Zigbee.light_off
+выключи свет,OverlordControl_Zigbee.light_off
+включить розетку,OverlordControl_Zigbee.charger_on
+включи розетку,OverlordControl_Zigbee.charger_on
+выключить розетку,OverlordControl_Zigbee.charger_off
+выключи розетку,OverlordControl_Zigbee.charger_off
 
 я люблю музыку,BaseFunction.another
 дальше лучше,BaseFunction.another

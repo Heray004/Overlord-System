@@ -1,5 +1,6 @@
 class WordBase:
-    def __init__(self):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.word_base = {
             'name': ["оверлорд", "овер", "лорд", "система", "обер", "опер", "уивер"],
             'commands': {
@@ -22,11 +23,11 @@ class WordBase:
                 ('OverlordControlIR', 'off_conditioner'): ["холодно"],
                 ('OverlordControlIR', 'set17'): ["жарко"],
                 ('OverlordControlIR', 'set18'): ["..."],
-                ('OverlordControlZigbee', 'light_on'): ["включить свет", "включи свет"],
-                ('OverlordControlZigbee', 'light_off'): ["выключить свет", "выключи свет"],
-                #('OverlordControlZigbee', 'light'): ["свет"],
-                ('OverlordControlZigbee', 'charger_on'): ["включить розетка", "включи розетку"],
-                ('OverlordControlZigbee', 'charger_off'): ["выключить розетка", "выключи розетку"],
-                #('OverlordControlZigbee', 'charger'): ["розетка"],
+                ('OverlordControl_Zigbee', 'light_on'): ["включить свет", "включи свет"],
+                ('OverlordControl_Zigbee', 'light_off'): ["выключить свет", "выключи свет"],
+                #('OverlordControl_Zigbee', 'light'): ["свет"],
+                ('OverlordControl_Zigbee', 'charger_on'): ["включить розетка", "включи розетку"],
+                ('OverlordControl_Zigbee', 'charger_off'): ["выключить розетка", "выключи розетку"],
+                #('OverlordControl_Zigbee', 'charger'): ["розетка"],
             }
         }

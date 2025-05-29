@@ -1,19 +1,14 @@
 import serial
 
 
-class OverlordControlIR:
-    def __init__(self):
-        pass
-        # try:
-        #     self.ser = serial.Serial('COM4', 9600, dsrdtr=0)
-        #     print("Overlord Control готов к работе (__init__)")
-        # except:
-        #     print("Ардуино модуль не найден (__init__)")
+class OverlordControl_IR:
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
-    def search_com(self):
+    def OverlordControl_IR_start(self):
         try:
             self.ser = serial.Serial('COM4', 9600, dsrdtr=0)
-            print("Overlord Control готов к работе (search_com)")
+            print("Overlord Control IR готов к работе")
             return self.ser
         except:
             print("Ардуино модуль не найден (search_com)")
@@ -47,9 +42,3 @@ class OverlordControlIR:
             self.ser.write(b'++')
         except:
             print("Ардуино модуль не найден (vol_up)")
-
-
-
-if __name__ == "__main__":
-    # Thread(target=listen_port, daemon=False).start()
-    pass

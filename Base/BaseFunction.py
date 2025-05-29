@@ -2,11 +2,13 @@ import pyautogui
 import webbrowser
 from sys import exit as EXIT
 from os import system
+from Base.Record import Record
 
-class BaseFunction():
 
-    def __init__(self):
-        pass
+class BaseFunction(Record):
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
     def music(self):
         pyautogui.press('playpause')
@@ -16,6 +18,9 @@ class BaseFunction():
 
     def next_music(self):
         pyautogui.press('nexttrack')
+
+    def insert_request(self):
+        pyautogui.write('Hello world!', interval=0.25)
 
     def param_vol(self):
         system('C:\Windows\explorer.exe ms-settings:apps-volume')

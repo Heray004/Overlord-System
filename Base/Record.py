@@ -4,8 +4,10 @@ import pyaudio
 from vosk import Model, KaldiRecognizer
 from time import sleep, time
 
+
 class Record:
-    def __init__(self, devices):
+    def __init__(self, devices, **kwargs):
+        super().__init__(**kwargs)
         self.model = Model(r"vosk-model-small-ru-0.22")
         self.p = pyaudio.PyAudio()
         self.devices = devices
@@ -93,5 +95,4 @@ class Record:
                                     self.text[i] = answer["text"]
                         i += 1
                 dat = datetime.now()
-                print(f" {dat.day}.{dat.month}.{dat.year}-{dat.hour}:{dat.minute}:{dat.second}", end=" ")
                 return self.text
