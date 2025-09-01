@@ -18,7 +18,21 @@ class Recognition(BaseFunction, OverlordControlIR, OverlordControlZigbee, Overlo
         self.name_flag = False
         self.name_score = 0
 
-    def recognition_start(self, model_flag):
+    def cycle(self):
+        while True:
+            try:
+                self.recognition_start()
+                print('Система "Overlord" готова к работе')
+                for text in self.listen():
+                    print(f'>>> {text}')
+                    text = self.merge_text(text)
+                    print(f'>>> {text}')
+                    self.model_recognition(text)
+
+            except OSError as E:
+                print(E)
+
+    def recognition_start(self):
         self.overlord_control_ir_start()
         self.overlord_control_zigbee_start()
         ha = Thread(target=self.overlord_access_ha_start, daemon=True)

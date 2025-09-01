@@ -2,8 +2,9 @@ from Ui.String import *
 
 
 class Login(Screen):
-    def __init__(self, **kwargs):
+    def __init__(self, App, **kwargs):
         super().__init__()
+        self.App = App
         self.name = 'Login'
         self.login_layout = FloatLayout()
         self.add_widget(self.login_layout)
@@ -44,7 +45,7 @@ class Login(Screen):
             background_color=btn_dark_grey,
             color=main_color2
         )
-        self.Go_app.bind(on_press=self.to_app_scrn)
+        self.Go_app.bind(on_press=self.on_press)
         self.login_layout.add_widget(self.Go_app)
 
         self.log = Label(
@@ -56,16 +57,7 @@ class Login(Screen):
         )
         self.login_layout.add_widget(self.log)
 
-    def to_app_scrn(self, *args):
-        pass
-        # if self.login.text == "admin" and self.password.text == "11":
-        #     self.manager.add_widget(Homes())
-        #     self.manager.add_widget(Graphs())
-        #     self.manager.add_widget(Rules())
-        #     self.manager.add_widget(Home_data())
-        #     self.manager.add_widget(Add_rule())
-        #     self.manager.current = 'Homes'
-        # else:
-        #     self.log.text = "Не правильный логин или пароль"
-        #     self.log.color = red
-        #     return 0
+    def on_press(self, *args):
+        self.devices_name = ["fifine", "Webcam"]  # , "Petlya"]
+        self.App.on_stop()
+

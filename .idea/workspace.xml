@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.8">
+      <change beforePath="$PROJECT_DIR$/.idea/OverlordSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OverlordSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base/Recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overlord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Overlord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ui/Ui_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ui/Ui_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "Z:/Storage/PythonW/OverlordSystem/venv/Scripts/python.exe",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Storage/PythonW/OverlordSystem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\MQTT" />
@@ -52,7 +58,7 @@
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordAccess" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_model">
+  <component name="RunManager" selected="Python.Overlord">
     <configuration name="Overlord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Overlord" />
         <item itemvalue="Python.create_model" />
         <item itemvalue="Python.chernovik" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Overlord" />
         <item itemvalue="Python.Rec_test" />
       </list>
     </recent_temporary>
@@ -376,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1756712903912</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Overlord System v1.8">
+      <created>1756713428522</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1756713428522</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Overlord System v1.8">
+      <created>1756713488751</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1756713488751</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
