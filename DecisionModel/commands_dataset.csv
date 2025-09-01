@@ -1,64 +1,75 @@
-text,intent
-включи музыку,BaseFunction.music
-запусти музыку,BaseFunction.music
-выключи музыку,BaseFunction.music
-музыка,BaseFunction.music
-дальше,BaseFunction.next_music
-назад,BaseFunction.prev_music
-параметры звука,BaseFunction.param_vol
-выключи компьютер,BaseFunction.off_PC
-отключи компьютер,BaseFunction.off_PC
-выключить компьютер,BaseFunction.off_PC
-перезагрузить компьютер,BaseFunction.restart_PC
-перезагрузи компьютер,BaseFunction.restart_PC
-привет,BaseFunction.hello
-уивер пока,BaseFunction.eexit
-обер пока,BaseFunction.eexit
-овер пока,BaseFunction.eexit
-лорд пока,BaseFunction.eexit
-оверлорд пока,BaseFunction.eexit
-открой доту,BaseFunction.open_dota
-запусти доту,BaseFunction.open_dota
-включи помойку,BaseFunction.open_dota
-инициализация,BaseFunction.reload
-проверь микрофоны,BaseFunction.reload
-найди микрофоны,BaseFunction.reload
+text,intent,args
+включи музыку,music,"{'key': 'playpause'}"
+запусти музыку,music,"{'key': 'playpause'}"
+выключи музыку,music,"{'key': 'playpause'}"
+музыка,music,"{'key': 'playpause'}"
+дальше,music,"{'key': 'nexttrack'}"
+назад,music,"{'key': 'prevtrack'}"
+параметры звука,param_vol,"{}"
+выключи компьютер,off_PC,"{}"
+отключи компьютер,off_PC,"{}"
+выключить компьютер,off_PC,"{}"
+перезагрузить компьютер,restart_PC,"{}"
+перезагрузи компьютер,restart_PC,"{}"
+привет,hello,"{}"
+уивер пока,eexit,"{}"
+обер пока,eexit,"{}"
+овер пока,eexit,"{}"
+лорд пока,eexit,"{}"
+оверлорд пока,eexit,"{}"
+открой доту,open_dota,"{}"
+запусти доту,open_dota,"{}"
+включи помойку,open_dota,"{}"
+инициализация,reload,"{}"
+проверь микрофоны,reload,"{}"
+найди микрофоны,reload,"{}"
+уивер пиши,insert_request,"{}"
+обер пиши,insert_request,"{}"
+овер пиши,insert_request,"{}"
+лорд пиши,insert_request,"{}"
+оверлорд пиши,insert_request,"{}"
+найти в ютюбе,search_youtube,"{}"
+найди в ютьюбе,search_youtube,"{}"
+найди в ютубе,search_youtube,"{}"
 
-громче,OverlordControlIR.vol_up
-увеличь громкость,OverlordControlIR.vol_up
-тише,OverlordControlIR.vol_down
-уменьши громкость,OverlordControlIR.vol_down
-холодно,OverlordControlIR.off_conditioner
-мне холодно,OverlordControlIR.off_conditioner
-жарко,OverlordControlIR.set17
-мне жарко,OverlordControlIR.set17
+громче,vol_set,"{'vol': 'vol_up'}"
+увеличь громкость,vol_set,"{'vol': 'vol_up'}"
+тише,vol_set,"{'vol': 'vol_down'}"
+уменьши громкость,vol_set,"{'vol': 'vol_down'}"
+холодно,conditioner_mod,"{'mod': 'off'}"
+мне холодно,conditioner_mod,"{'mod': 'off'}"
+жарко,conditioner_mod,"{'mod': 'cool'}"
+мне жарко,conditioner_mod,"{'mod': 'cool'}"
 
-включить свет,OverlordControl_Zigbee.light_on
-включи свет,OverlordControl_Zigbee.light_on
-выключить свет,OverlordControl_Zigbee.light_off
-выключи свет,OverlordControl_Zigbee.light_off
-включить розетку,OverlordControl_Zigbee.charger_on
-включи розетку,OverlordControl_Zigbee.charger_on
-выключить розетку,OverlordControl_Zigbee.charger_off
-выключи розетку,OverlordControl_Zigbee.charger_off
+включить свет,light,"{'state': 'ON'}"
+включи свет,light,"{'state': 'ON'}"
+выключить свет,light,"{'state': 'OFF'}"
+выключи свет,light,"{'state': 'OFF'}"
+включить розетку,charger,"{'state': 'ON'}"
+включи розетку,charger,"{'state': 'ON'}"
+выключить розетку,charger,"{'state': 'OFF'}"
+выключи розетку,charger,"{'state': 'OFF'}"
 
-я люблю музыку,BaseFunction.another
-дальше лучше,BaseFunction.another
-назад дороги нет,BaseFunction.another
-громче некуда,BaseFunction.another
-тише некуда,BaseFunction.another
-бывает жарко,BaseFunction.another
-бывает холодно,BaseFunction.another
-включи мозг,BaseFunction.another
-выключи газ,BaseFunction.another
-перезагрузи программу,BaseFunction.another
-перезагрузить программу,BaseFunction.another
-проверь холодильник,BaseFunction.another
-уменьши дальность,BaseFunction.another
-увеличь дальность,BaseFunction.another
-не,BaseFunction.another
-купил компьютер,BaseFunction.another
-закинул в компьютер,BaseFunction.another
-пока,BaseFunction.another
-пока пока,BaseFunction.another
-давай пока,BaseFunction.another
+я люблю музыку,another,"{}"
+дальше лучше,another,"{}"
+назад дороги нет,another,"{}"
+громче некуда,another,"{}"
+тише некуда,another,"{}"
+бывает жарко,another,"{}"
+бывает холодно,another,"{}"
+включи мозг,another,"{}"
+выключи газ,another,"{}"
+перезагрузи программу,another,"{}"
+перезагрузить программу,another,"{}"
+проверь холодильник,another,"{}"
+уменьши дальность,another,"{}"
+увеличь дальность,another,"{}"
+не,another,"{}"
+купил компьютер,another,"{}"
+закинул в компьютер,another,"{}"
+пока,another,"{}"
+пока пока,another,"{}"
+давай пока,another,"{}"
+родной пиши,another,"{}"
+давай пиши,another,"{}"
+тише тише,another,"{}"

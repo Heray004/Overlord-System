@@ -1,4 +1,5 @@
 /vosk-model-ru-0.42/
 /vosk-model-ru-0.22/
+/vosk-model-ru-0.10/
 /tests/
-/OverlordControl/Zigbee/test/
+/OverlordControl/MQTT/test/

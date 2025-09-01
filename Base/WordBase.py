@@ -9,7 +9,9 @@ class WordBase:
                 ('BaseFunction', 'off_PC'): ["выключить компьютер", "выключи компьютер"],
                 ('BaseFunction', 'hello'): ["привет"],
                 ('BaseFunction', 'reload'): ["найди микрофоны", "проверь микрофоны", "инициализация"],
-                ('BaseFunction', 'open_dota'): ["открой доту", "открой помойку", "включи помойку", "запусти помойку"]
+                ('BaseFunction', 'open_dota'): ["открой доту", "открой помойку", "включи помойку", "запусти помойку"],
+                ('BaseFunction', 'insert_request'): ["пиши"],
+                ('BaseFunction', 'search_youtube'): ["найди в ютюбе", "найти в ютюбе"],
             },
             'other': {
                 # 'player'
@@ -20,14 +22,12 @@ class WordBase:
                 ('OverlordControlIR', 'vol_down'): ["тише"],
                 ('OverlordControlIR', 'vol_up'): ["громче"],
                 # 'conditioner'
-                ('OverlordControlIR', 'off_conditioner'): ["холодно"],
+                ('OverlordControlIR', 'conditioner_off'): ["холодно"],
                 ('OverlordControlIR', 'set17'): ["жарко"],
                 ('OverlordControlIR', 'set18'): ["..."],
                 ('OverlordControl_Zigbee', 'light_on'): ["включить свет", "включи свет"],
                 ('OverlordControl_Zigbee', 'light_off'): ["выключить свет", "выключи свет"],
-                #('OverlordControl_Zigbee', 'light'): ["свет"],
                 ('OverlordControl_Zigbee', 'charger_on'): ["включить розетка", "включи розетку"],
                 ('OverlordControl_Zigbee', 'charger_off'): ["выключить розетка", "выключи розетку"],
-                #('OverlordControl_Zigbee', 'charger'): ["розетка"],
             }
         }

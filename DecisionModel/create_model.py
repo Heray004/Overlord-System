@@ -1,18 +1,19 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
+from sklearn.multioutput import MultiOutputClassifier
 
 import pandas as pd
 data = pd.read_csv("commands_dataset.csv")  # Путь к вашему файлу
 
 model_pipeline = Pipeline([
     ("vectorizer", TfidfVectorizer(ngram_range=(1, 2))),
-    ("classifier", RandomForestClassifier(n_estimators=1500, random_state=42))
+    ("classifier", MultiOutputClassifier(RandomForestClassifier(n_estimators=1500, random_state=42)))
 ])
 
 # Обучение модели
 X = data["text"]  # Тексты запросов
-y = data["intent"]  # Метки классов (intents)
+y = data[["intent", "args"]]  # Метки классов (intents)
 model_pipeline.fit(X, y)
 
 # Сохранение модели

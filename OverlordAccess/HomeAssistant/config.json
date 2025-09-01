@@ -1,0 +1,60 @@
+{
+  "vol_down": {
+    "topic":{
+      "HA_conf": "homeassistant/button/vol_down/config",
+      "command_topic": ["Overlord_Control/button/vol_down/set"],
+      "availability_topic": ["Overlord_Control/button/vol_down/available"],
+      "state_topic": ["Overlord_Control/button/vol_down"]
+    },
+    "config": {
+      "unique_id": "overlord_access_ha_vol_down",
+      "name": "Vol down",
+      "state_topic": "Overlord_Control/button/vol_down",
+      "command_topic": "Overlord_Control/button/vol_down/set",
+      "availability_topic": "Overlord_Control/button/vol_down/available",
+      "payload_press": "vol_down",
+      "optimistic": false,
+      "qos": 0,
+      "retain": false,
+      "device": {
+        "hw_version": 1,
+        "identifiers": [
+          "ha2pc_overlord_access_ha"
+        ],
+        "manufacturer": "Heray",
+        "model": "v 1.7",
+        "model_id": "Overlord Access HA",
+        "name": "Overlord Access HA"
+      }
+    }
+  },
+  "vol_up": {
+    "topic":{
+      "HA_conf": "homeassistant/button/vol_up/config",
+      "command_topic": ["Overlord_Control/button/vol_up/set"],
+      "availability_topic": ["Overlord_Control/button/vol_up/available"],
+      "state_topic": ["Overlord_Control/button/vol_up"]
+    },
+    "config": {
+      "unique_id": "overlord_access_ha_vol_up",
+      "name": "Vol up",
+      "state_topic": "Overlord_Control/button/vol_up",
+      "command_topic": "Overlord_Control/button/vol_up/set",
+      "availability_topic": "Overlord_Control/button/vol_up/available",
+      "payload_press": "vol_up",
+      "optimistic": false,
+      "qos": 0,
+      "retain": false,
+      "device": {
+        "hw_version": 1,
+        "identifiers": [
+          "ha2pc_overlord_access_ha"
+        ],
+        "manufacturer": "Heray",
+        "model": "v 1.7",
+        "model_id": "Overlord Access HA",
+        "name": "Overlord Access HA"
+      }
+    }
+  }
+}
