@@ -3,7 +3,6 @@ import numpy as np
 from threading import Thread
 from time import sleep
 # -------------------------------------------
-from Base.WordBase import WordBase
 from Base.BaseFunction import BaseFunction
 from OverlordControl.MQTT.OverlordControlIR import OverlordControlIR
 from OverlordControl.MQTT.OverlordControlZigbee import OverlordControlZigbee
