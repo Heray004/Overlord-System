@@ -1,6 +1,7 @@
-/vosk-model-ru-0.42/
+/.idea/
+/venv/
+.gitignore
 /vosk-model-ru-0.22/
 /vosk-model-ru-0.10/
 /tests/
-/OverlordControl/MQTT/test/
-/OverlordControl/MQTT/test/zigbee2mqtt/
+/Base/Sql_data.py

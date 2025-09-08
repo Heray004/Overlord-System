@@ -4,33 +4,21 @@ from threading import Thread
 from time import sleep
 # -------------------------------------------
 from Base.BaseFunction import BaseFunction
+from Base.DatabaseRead import DatabaseRead
 from OverlordControl.MQTT.OverlordControlIR import OverlordControlIR
 from OverlordControl.MQTT.OverlordControlZigbee import OverlordControlZigbee
 from OverlordAccess.HomeAssistant.OverlordAccessHA import OverlordAccessHA
+
 # -------------------------------------------
 
 
-class Recognition(BaseFunction, OverlordControlIR, OverlordControlZigbee, OverlordAccessHA):
+class Recognition(BaseFunction, DatabaseRead, OverlordControlIR, OverlordControlZigbee, OverlordAccessHA):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         with open(r"DecisionModel/Overlord_model_v0.1.pkl", "rb") as model_file:
             self.model_pipeline = pickle.load(model_file)
         self.name_flag = False
         self.name_score = 0
-
-    def cycle(self):
-        while True:
-            try:
-                self.recognition_start()
-                print('Система "Overlord" готова к работе')
-                for text in self.listen():
-                    print(f'>>> {text}')
-                    text = self.merge_text(text)
-                    print(f'>>> {text}')
-                    self.model_recognition(text)
-
-            except OSError as E:
-                print(E)
 
     def recognition_start(self):
         self.overlord_control_ir_start()

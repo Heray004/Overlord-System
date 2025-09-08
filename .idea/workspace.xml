@@ -5,13 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.8">
-      <change beforePath="$PROJECT_DIR$/.idea/OverlordSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OverlordSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Base/DatabaseRead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base/Recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Recognition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Overlord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Overlord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ui/Ui_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ui/Ui_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/am/final.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/conf/mfcc.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/conf/model.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/graph/Gr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/graph/HCLr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/graph/disambig_tid.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/graph/phones/word_boundary.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/ivector/final.dubm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/ivector/final.ie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/ivector/final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/ivector/global_cmvn.stats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/ivector/online_cmvn.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-en-us-0.15/ivector/splice.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/am/final.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/conf/mfcc.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/conf/model.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/graph/Gr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/graph/HCLr.fst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/graph/disambig_tid.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/graph/phones/word_boundary.int" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/ivector/final.dubm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/ivector/final.ie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/ivector/final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/ivector/global_cmvn.stats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/ivector/online_cmvn.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vosk-model-small-ru-0.22/ivector/splice.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +63,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Storage/PythonW/OverlordSystem&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Storage/PythonW/Overlord",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Storage\PythonW\OverlordSystem\Voice" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\MQTT" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\Ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Storage\PythonW\OverlordSystem\VoiceRec" />
+      <recent name="D:\Storage\PythonW\OverlordSystem" />
+      <recent name="D:\Storage\PythonW\OverlordSystem\Voice" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\MQTT" />
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\Legacy" />
-      <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl" />
-      <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\Zigbee\test" />
-      <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordAccess" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Overlord">
+  <component name="RunManager" selected="Python.Voice (1)">
+    <configuration name="DatabaseInsert (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OverlordSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VoiceRec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VoiceRec/DatabaseInsert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DatabaseRead" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OverlordSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/DatabaseRead.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Overlord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Rec_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Voice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/Rec_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chernovik" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Voice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,53 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Voice" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/chernovik.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="create_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OverlordSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionModel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionModel/create_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OverlordSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base/test.py" />
+      <option name="SCRIPT_NAME" value="D:\Storage\PythonW\OverlordSystem\Voice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Voice (1)" />
         <item itemvalue="Python.Overlord" />
-        <item itemvalue="Python.create_model" />
-        <item itemvalue="Python.chernovik" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Rec_test" />
+        <item itemvalue="Python.DatabaseRead" />
+        <item itemvalue="Python.DatabaseInsert (1)" />
+        <item itemvalue="Python.Voice" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756713488751</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Overlord System v1.8">
+      <created>1756749331354</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1756749331354</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
