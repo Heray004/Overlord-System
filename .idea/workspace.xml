@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v1.8">
-      <change beforePath="$PROJECT_DIR$/Overlord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Overlord.py" afterDir="false" />
+    <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1757364468872</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Overlord System v1.8">
+      <created>1757374455221</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1757374455221</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Overlord System v2.0">
+      <created>1757374657408</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1757374657408</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,6 +442,26 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/old_v1.x" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="old_v1.x" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/master" />
@@ -449,8 +483,8 @@
     <MESSAGE value="Overlord System v1.5" />
     <MESSAGE value="Overlord System v1.6" />
     <MESSAGE value="Overlord System v1.7" />
-    <MESSAGE value="Overlord System v2.0" />
     <MESSAGE value="Overlord System v1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overlord System v1.8" />
+    <MESSAGE value="Overlord System v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overlord System v2.0" />
   </component>
 </project>
