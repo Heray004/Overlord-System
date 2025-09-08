@@ -6,7 +6,7 @@ class DatabaseRead:
     def __int__(self, **kwargs):
         super().__init__(**kwargs)
 
-    def sql_connect(self):
+    def __sql_connect(self):
         conn = mysql.connector.connect(
             host=Sql_data.sql_host,
             user=Sql_data.sql_user,
@@ -17,20 +17,33 @@ class DatabaseRead:
         cursor = conn.cursor()
         return conn, cursor
 
-    def sql_close(self, conn, cursor):
+    def __sql_close(self, conn, cursor):
         cursor.close()
         conn.close()
 
-    def get_voice(self, conn, cursor):
+    def get_voice(self):
+        conn, cursor = self.__sql_connect()
         cursor.execute(
-            "SELECT * FROM Voice WHERE executed = 0 ORDER BY id ASC LIMIT 2",
+            "SELECT * FROM Voice WHERE Status = 'Waiting' ORDER BY id ASC LIMIT 2",
         )
         data = cursor.fetchall()
+        self.__sql_close(conn=conn, cursor=cursor)
         return data
 
-    def executed(self, conn, cursor, voice_id):
+    def executed(self, voice_id):
+        conn, cursor = self.__sql_connect()
         cursor.execute(
-            "UPDATE Voice SET executed = 1 WHERE id = %s",
+            "UPDATE Voice SET Status = 'Executed' WHERE id = %s",
             (voice_id,)
         )
         conn.commit()
+        self.__sql_close(conn=conn, cursor=cursor)
+
+    def deny(self, voice_id):
+        conn, cursor = self.__sql_connect()
+        cursor.execute(
+            "UPDATE Voice SET Status = 'Deny' WHERE id = %s",
+            (voice_id,)
+        )
+        conn.commit()
+        self.__sql_close(conn=conn, cursor=cursor)

@@ -5,24 +5,24 @@ import json
 class OverlordControlZigbee:
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.broker_z2m = "192.168.0.11"
-        self.light_set = "zigbee2mqtt/Light/set"
-        self.charger_set = "zigbee2mqtt/Charger/set"
+        self.__broker_z2m = "192.168.0.11"
+        self.__light_set = "zigbee2mqtt/Light/set"
+        self.__charger_set = "zigbee2mqtt/Charger/set"
+        self.__client_z2m = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
 
     def overlord_control_zigbee_start(self, **kwargs):
-        self.client_z2m = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
         print("Overlord Control Zigbee готов к работе")
 
     def light(self, state=None, **kwargs):
-        self.client_z2m.connect(self.broker_z2m, 1883, 60)
+        self.__client_z2m.connect(self.__broker_z2m, 1883, 60)
         string = '{"state": "' + str(state) + '"}'
-        self.client_z2m.publish(self.light_set, string)
-        self.client_z2m.disconnect()
-        return self.light_set, "<<<", string
+        self.__client_z2m.publish(self.__light_set, string)
+        self.__client_z2m.disconnect()
+        return self.__light_set, "<<<", string
 
     def charger(self, state=None, **kwargs):
-        self.client_z2m.connect(self.broker_z2m, 1883, 60)
+        self.__client_z2m.connect(self.__broker_z2m, 1883, 60)
         string = '{"state": "' + str(state) + '"}'
-        self.client_z2m.publish(self.charger_set, string)
-        self.client_z2m.disconnect()
-        return self.charger_set, "<<<", '{"state": "ON"}'
+        self.__client_z2m.publish(self.__charger_set, string)
+        self.__client_z2m.disconnect()
+        return self.__charger_set, "<<<", '{"state": "ON"}'

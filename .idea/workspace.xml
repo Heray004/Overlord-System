@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v2.0" />
+    <list default="true" id="05f62c80-d500-48d9-83f2-32a7c0a83529" name="Changes" comment="Overlord System v2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/BaseFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/BaseFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/DatabaseRead.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/DatabaseRead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/Recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/Record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overlord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Overlord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OverlordControl/MQTT/OverlordControlIR.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/MQTT/OverlordControlIR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OverlordControl/MQTT/OverlordControlZigbee.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverlordControl/MQTT/OverlordControlZigbee.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="old_v1.x" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +65,7 @@
       <recent name="C:\Users\renk_helmn90\Desktop\PythonW\OverlordSystem\OverlordControl\Legacy" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Voice (1)">
+  <component name="RunManager" selected="Python.Overlord">
     <configuration name="DatabaseInsert (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OverlordSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,10 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Voice (1)" />
-        <item itemvalue="Python.Voice" />
         <item itemvalue="Python.Overlord" />
         <item itemvalue="Python.DatabaseRead" />
+        <item itemvalue="Python.Voice (1)" />
+        <item itemvalue="Python.Voice" />
         <item itemvalue="Python.DatabaseInsert (1)" />
       </list>
     </recent_temporary>
@@ -447,8 +456,8 @@
     <MESSAGE value="Overlord System v1.5" />
     <MESSAGE value="Overlord System v1.6" />
     <MESSAGE value="Overlord System v1.7" />
-    <MESSAGE value="Overlord System v1.8" />
     <MESSAGE value="Overlord System v2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overlord System v2.0" />
+    <MESSAGE value="Overlord System v1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overlord System v1.8" />
   </component>
 </project>

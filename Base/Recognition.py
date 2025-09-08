@@ -7,12 +7,11 @@ from Base.BaseFunction import BaseFunction
 from Base.DatabaseRead import DatabaseRead
 from OverlordControl.MQTT.OverlordControlIR import OverlordControlIR
 from OverlordControl.MQTT.OverlordControlZigbee import OverlordControlZigbee
-from OverlordAccess.HomeAssistant.OverlordAccessHA import OverlordAccessHA
-
+# from OverlordAccess.HomeAssistant.OverlordAccessHA import OverlordAccessHA
 # -------------------------------------------
 
 
-class Recognition(BaseFunction, DatabaseRead, OverlordControlIR, OverlordControlZigbee, OverlordAccessHA):
+class Recognition(BaseFunction, DatabaseRead, OverlordControlIR, OverlordControlZigbee):  # OverlordAccessHA
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         with open(r"DecisionModel/Overlord_model_v0.1.pkl", "rb") as model_file:
@@ -23,8 +22,8 @@ class Recognition(BaseFunction, DatabaseRead, OverlordControlIR, OverlordControl
     def recognition_start(self):
         self.overlord_control_ir_start()
         self.overlord_control_zigbee_start()
-        ha = Thread(target=self.overlord_access_ha_start, daemon=True)
-        ha.start()
+        # ha = Thread(target=self.overlord_access_ha_start, daemon=True)
+        # ha.start()
         sleep(0.1)
 
     def model_recognition(self, text):
