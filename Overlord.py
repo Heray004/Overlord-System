@@ -11,7 +11,6 @@ class Overlord(Recognition):
         super().__init__(**kwargs)
         self.cycle()
 
-
 # class Ui(App, Screen):
 #     def build(self):
 #         self.title = "Overlord"
