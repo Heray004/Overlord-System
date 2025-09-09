@@ -1,7 +1,0 @@
-/.idea/
-/venv/
-.gitignore
-/vosk-model-ru-0.22/
-/vosk-model-ru-0.10/
-/tests/
-/Base/Sql_data.py
